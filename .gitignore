@@ -1,0 +1,29 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node.js
+node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+smart_contracts/artifacts/
+smart_contracts/cache/
+smart_contracts/typechain-types/
+smart_contracts/coverage/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+*.log
+
+# Empty npm lockfile accidentally created at repository root
+/package-lock.json
